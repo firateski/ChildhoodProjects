@@ -1,0 +1,3 @@
+# SayiBulmaOyunuGelismis
+
+Sayı bulma oyununun ilk sürümünü repo isminden anlayacağınız üzere programlama öğrenmeye yeni başladığım sıralarda yaptım. O zamanlar çok bilgim ve tecrübem olmadığı için statik listeler üzerinde çareyi bulmuşum ve her sayıya ulaşma yolu da sabit. Belki projeyi kullanmak isteyenler olur diye projeyi hızlıca düzenleyerek random bir yolla sonuca ulaşan optimize edilmiş halini eklemenin gerektiğini düşündüm. Bu sürümde onlarca satır koddan tasarruf edildiği gibi sonuca farklı yollardan ulaşılabildiği için daha iyi bir sonuç ortaya çıktı.
