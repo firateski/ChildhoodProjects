@@ -200,7 +200,6 @@ namespace xoxGame
                     return true;
                 }
             }
-
             return false;
         }
 
@@ -247,7 +246,6 @@ namespace xoxGame
                 string pictureBoxPoint = ((PictureBox)sender).Tag.ToString();
                 Point ClickedPictureBoxPoint = new Point(int.Parse(pictureBoxPoint.Split(':')[0]), 
                                                          int.Parse(pictureBoxPoint.Split(':')[1]));
-
                 table[ClickedPictureBoxPoint.X, ClickedPictureBoxPoint.Y] = states.x;
             }
             else
@@ -258,7 +256,6 @@ namespace xoxGame
                 string pictureBoxPoint = ((PictureBox)sender).Tag.ToString();
                 Point ClickedPictureBoxPoint = new Point(int.Parse(pictureBoxPoint.Split(':')[0]),
                                         int.Parse(pictureBoxPoint.Split(':')[1]));
-
                 table[ClickedPictureBoxPoint.X, ClickedPictureBoxPoint.Y] = states.o;
             }
 
